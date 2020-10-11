@@ -31,3 +31,7 @@ Multiplier based on how fast they answered the question.
 ##GOLD
 Can get random question where they can bet with the points they have to get double the points they enter.
 Trivia music
+
+
+//make a div using script JS - populate with question and answer 
+make 3 divs only 
