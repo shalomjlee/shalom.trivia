@@ -1,0 +1,14 @@
+.choiceText{
+    background-color: lightblue;
+}
+.choiceText:hover{
+    cursor: pointer;
+    transition: transform 150ms;
+    box-shadow: lightskyblue;
+}
+.correct {
+    background-color: green;
+}
+.incorrect {
+    background-color: red;
+}
