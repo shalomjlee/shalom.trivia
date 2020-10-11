@@ -35,3 +35,5 @@ Trivia music
 
 //make a div using script JS - populate with question and answer 
 make 3 divs only 
+
+/* Watching some videos and tutorials on how this would be done helped alot - shout out to james Q Quick for his videos. Very interesting way to go about it! */
