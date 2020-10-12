@@ -1,14 +1,60 @@
-.choiceText{
-    background-color: lightblue;
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 0.1rem solid;
+    background-color: white;
 }
-.choiceText:hover{
+
+.choice-container:hover {
     cursor: pointer;
     transition: transform 150ms;
-    box-shadow: lightskyblue;
+    background-color: lightblue;
 }
+
+.choice-prefix{
+background-color: burlywood;
+padding: 1.5rem 2.5rem;
+}
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+
+
 .correct {
     background-color: green;
 }
 .incorrect {
     background-color: red;
 }
+
+
+
+/* .choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+} */
