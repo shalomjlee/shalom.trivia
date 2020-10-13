@@ -1,41 +1,13 @@
-/*root selector is basically html tag */
-
-:root {
-    background-color: #F4DfB5;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    padding: 0;
-}
-
-*{
+body{
+    background-color: wheat;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-/*margin 0 and padding zero allow for everything to fill their margins and paddings with color*/
 
-.button {
-    font-size: 1.5rem;
-    padding: 1 rem 0;
-    width: 20rem;
+.container{
+    place-content: center;
     text-align: center;
-    background-color: white;
-    color: #13161F;
-    margin-bottom: 1rem;
-    max-width: 200px;
-}
-
-
-.container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
+    padding: 2rem;
 }

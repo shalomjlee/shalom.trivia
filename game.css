@@ -1,34 +1,27 @@
+body{
+    background-color: wheat;
+}
+
 .choice-container{
-    display: flex;
-    margin-bottom: 0.5rem;
-    width: 100%;
-    font-size: 1.5rem;
-    border: 0.1rem solid;
     background-color: white;
 }
 
-.choice-container:hover {
+.choice-container:hover{
     cursor: pointer;
+    background-color: aliceblue;
     transition: transform 150ms;
-    background-color: lightblue;
-}
-
-.choice-prefix{
-background-color: burlywood;
-padding: 1.5rem 2.5rem;
 }
 .choice-text{
-    padding: 1.5rem;
     width: 100%;
+    padding: 1rem;
 }
-
-
-
-.correct {
+.choice-prefix{
+    display: flex;
+    justify-content: left;
+}
+.correct{
     background-color: green;
 }
-.incorrect {
+.incorrect{
     background-color: red;
 }
-
-
