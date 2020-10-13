@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Screen
+    </title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+
+
+
+
+
+        </div>
+        <h1 id="finalScore">
+            0
+        </h1>
+
+
+
+        <form>
+            <input type='text' name='username' id='username' placeholder='username'/>
+
+            <button type = 'submit' class = 'button' id = 'highScorebtn'
+            onclick="saveScore(event)"
+            disabled>Save your score</button>
+        </form>
+        <a class = 'button' id = 'restart' href= '/game.html'>RESTART</a>
+        <a class = 'button' id= 'home' href='/index.html'>START SCREEN </a>
+    </div>
+    <script src="endScreen.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

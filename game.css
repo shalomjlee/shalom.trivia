@@ -1,0 +1,27 @@
+body{
+    background-color: wheat;
+}
+
+.choice-container{
+    background-color: white;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: transform 150ms;
+}
+.choice-text{
+    width: 100%;
+    padding: 1rem;
+}
+.choice-prefix{
+    display: flex;
+    justify-content: left;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}

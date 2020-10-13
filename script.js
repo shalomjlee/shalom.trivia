@@ -6,7 +6,6 @@ On this second page will be random questions from the trivia API. I will have 10
 After the 10th question, there will be a score screen. On this score screen will have the #/10 questions you got right. There will also be a button that should take you to the first screen. After taking you to the first screen, the 10 questions should refresh into a random new category with random questions. 
 */
 
-const url = 'https://opentdb.com/api.php?amount=10&category=9&type=multiple'
 
 //trivia
 
@@ -18,3 +17,8 @@ I made my framework for my HTML
     3. Are there any blockers in your way?
     transition pages have been a bit difficult, unsure how to implement my API 
 */
+
+ //lose start button keep title or lose both, event listener on button take start button and set display to none. add Eventlistener display none then display block for the restart button.
+        //array of data - automatically generate what shows up - 
+        //create array of objects with questions and answers 
+        //question needs to appear, place to answer, next button
