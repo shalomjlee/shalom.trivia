@@ -66,4 +66,14 @@ I made my framework for my HTML
 
         //when you're looking up 
 
-        
+        ![Image of trivia working]
+        file:///Users/admin/Desktop/Screen%20Shot%202020-10-13%20at%2018.58.17.png
+
+    
+    Technologies used is Javascript, CSS, and HTML
+    used API, JSON, DOM, grid and flex layouts
+
+    My users are people who want a serviceable trivia making application that gets random questions from the trivia API
+
+WIREFRAME
+file:///var/folders/ft/09bn74ws6vg7jht09_jxgp000000gn/T/TemporaryItems/NSIRD_screencaptureui_jfN6qT/Screen%20Shot%202020-10-13%20at%2019.18.12.png

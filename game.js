@@ -1,5 +1,5 @@
 const question = document.querySelector('#question');
-const answers = document.querySelectorAll('.choice-text');
+const answers = document.querySelectorAll('.answer-text');
 const number = document.querySelectorAll('[data-number]')
 let questionCounter = document.querySelector('#questionCounter')
 let scoreNumber = document.querySelector('#score')
@@ -22,7 +22,7 @@ fetch(url)
 		return res.json();
 	})
 	.then((apiQuestions) => {
-        console.log(apiQuestions.results)
+    
 		questions = apiQuestions.results.map((apiQuestion) => {
 			const formQuestion = {
 				question: apiQuestion.question,
@@ -54,7 +54,7 @@ function startGame() {
     questionNumber = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions)//availableQuestions is a copy of the array
+    //availableQuestions is a copy of the array
     getNewQuestions();
 }
 
@@ -85,7 +85,7 @@ function getNewQuestions(){
 
 answers.forEach(choice => {
     choice.addEventListener('click', event => {
-        console.log(event.target)//can see what we target - we now target data number
+
         if(!acceptAnswers) return;
 
         acceptAnswers = false;
@@ -103,13 +103,14 @@ answers.forEach(choice => {
 
 
         selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.remove('choice-selected');
 
         setTimeout( ()=> {
         
         selectedChoice.parentElement.classList.remove(classToApply);
-
+        
         getNewQuestions()
-    }, 1000
+    }, 500
     );
     })
 })
