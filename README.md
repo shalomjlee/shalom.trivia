@@ -1,6 +1,12 @@
 ##TRIVIA PROJECT
 
+//SHOUTOUT TO JAMESQUICK AND HIS TRIVIA GUIDE - 
+https://www.youtube.com/watch?v=3aKOQn2NPFs&ab_channel=JamesQQuick
+FOR FETCHING THE API TO LOAD QUESTIONS 
 
+ALSO 10 CSS LAYOUTS 
+https://www.youtube.com/watch?v=qm0IfG1GyZU&t=136s&ab_channel=GoogleChromeDevelopers
+GOOGLE CHROME DEVELOPERS 
 
 ##USER STORIES
 As a player, I want to see how many questions I've answered, and how many I got right, to keep track of my progress.
@@ -77,3 +83,14 @@ I made my framework for my HTML
 
 WIREFRAME
 file:///var/folders/ft/09bn74ws6vg7jht09_jxgp000000gn/T/TemporaryItems/NSIRD_screencaptureui_jfN6qT/Screen%20Shot%202020-10-13%20at%2019.18.12.png
+
+
+//DESCRIPTIONS OF UNSOLVED PROBLEMS - MAJOR HURDLES 
+I was never able to get things in a box.
+Also the container itself isn't able to be clicked - only the p tag which means that there is white space that isn't necessarily able to be clicked.
+I also wished I can click on my answer-prefixes, but wasn't able to do so. I believe alot of this is CSS so I really wnat to get good at it! until then, here's an ugly product made with a lot of love :)
+
+
+
+//LINK TO HOSTED PROJECT 
+https://shalomjlee.github.io/shalom.trivia/index.html
