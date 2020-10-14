@@ -2,26 +2,40 @@ body{
     background-color: wheat;
 }
 
-.choice-container{
+
+.answer-container{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
     background-color: white;
+    margin: 10px;
+}
+.answer-container:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    transition-delay: 200ms;
+}
+#game{
+    display: flex;
+    justify-content: space-between;
 }
 
-.choice-container:hover{
-    cursor: pointer;
-    background-color: aliceblue;
-    transition: transform 150ms;
+
+.answer-prefix{
+    background-color: mediumaquamarine;
+    margin: 0;
 }
-.choice-text{
-    width: 100%;
-    padding: 1rem;
-}
-.choice-prefix{
+
+.answer-text{
+    margin: 10px;
     display: flex;
-    justify-content: left;
-}
+    justify-content: center;
+} 
+
 .correct{
     background-color: green;
 }
+
 .incorrect{
     background-color: red;
 }
