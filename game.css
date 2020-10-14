@@ -6,7 +6,7 @@ body{
 .answer-container{
     display: flex;
     column-gap: 10px;
-    justify-content: space-between;
+    justify-content: left;
     margin: 10px;
 }
 .answer-container:hover {
@@ -28,7 +28,7 @@ body{
 .answer-text{
     margin: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color:white;
 } 
 
