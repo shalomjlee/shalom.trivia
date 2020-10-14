@@ -73,7 +73,7 @@ I made my framework for my HTML
         //when you're looking up 
 
         ![Image of trivia working]
-        file:///Users/admin/Desktop/Screen%20Shot%202020-10-13%20at%2018.58.17.png
+      <img width="496" alt="Screen Shot 2020-10-13 at 18 58 17" src="https://user-images.githubusercontent.com/70102485/96010900-ef764e80-0e07-11eb-9601-6ba17b21164c.png">
 
     
     Technologies used is Javascript, CSS, and HTML
@@ -82,7 +82,7 @@ I made my framework for my HTML
     My users are people who want a serviceable trivia making application that gets random questions from the trivia API
 
 WIREFRAME
-file:///var/folders/ft/09bn74ws6vg7jht09_jxgp000000gn/T/TemporaryItems/NSIRD_screencaptureui_jfN6qT/Screen%20Shot%202020-10-13%20at%2019.18.12.png
+(https://user-images.githubusercontent.com/70102485/96010905-f0a77b80-0e07-11eb-91a1-727f9a19726a.jpg)
 
 
 //DESCRIPTIONS OF UNSOLVED PROBLEMS - MAJOR HURDLES 
